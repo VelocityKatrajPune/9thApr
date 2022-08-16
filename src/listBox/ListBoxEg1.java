@@ -18,7 +18,7 @@ public class ListBoxEg1 {
 		
 		Thread.sleep(1000);
 		//1.	Identify list box to be handled and store it in reference variable
-
+		//changes made by me
 		WebElement listBox = driver.findElement(By.id("dropdown-class-example"));
 	
 		//2.	Create an object of Select class which will accept WebElement as argument
