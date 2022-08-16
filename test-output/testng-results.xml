@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[launching Kite APP]]>
+    </line>
+    <line>
+      <![CDATA[TC execution is started kiteUserValidation]]>
+    </line>
+    <line>
+      <![CDATA[TC execution is failed kiteUserValidation]]>
+    </line>
+    <line>
+      <![CDATA[Taken SCreenshot]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-04T18:55:45 IST" name="Default suite" finished-at="2022-08-04T18:55:51 IST" duration-ms="6101">
+    <groups>
+    </groups>
+    <test started-at="2022-08-04T18:55:45 IST" name="Default test" finished-at="2022-08-04T18:55:51 IST" duration-ms="6101">
+      <class name="kiteTestClasses.ValidateKiteUserIDUsingPropertyFile">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:kiteTestClasses.ValidateKiteUserIDUsingPropertyFile@4d154ccd]" started-at="2022-08-04T18:55:45 IST" name="launchBrowser" finished-at="2022-08-04T18:55:49 IST" duration-ms="3747" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching Kite APP]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToKiteApp()[pri:0, instance:kiteTestClasses.ValidateKiteUserIDUsingPropertyFile@4d154ccd]" started-at="2022-08-04T18:55:49 IST" name="loginToKiteApp" finished-at="2022-08-04T18:55:49 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToKiteApp -->
+        <test-method signature="kiteUserValidation()[pri:0, instance:kiteTestClasses.ValidateKiteUserIDUsingPropertyFile@4d154ccd]" started-at="2022-08-04T18:55:49 IST" name="kiteUserValidation" finished-at="2022-08-04T18:55:50 IST" duration-ms="781" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TC faled actual and Expected User ID Not matching expected [ELR323] but found [ELR321]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TC faled actual and Expected User ID Not matching expected [ELR323] but found [ELR321]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at kiteTestClasses.ValidateKiteUserIDUsingPropertyFile.kiteUserValidation(ValidateKiteUserIDUsingPropertyFile.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TC execution is started kiteUserValidation]]>
+            </line>
+            <line>
+              <![CDATA[TC execution is failed kiteUserValidation]]>
+            </line>
+            <line>
+              <![CDATA[Taken SCreenshot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- kiteUserValidation -->
+        <test-method is-config="true" signature="LogOutFromKiteApp()[pri:0, instance:kiteTestClasses.ValidateKiteUserIDUsingPropertyFile@4d154ccd]" started-at="2022-08-04T18:55:50 IST" name="LogOutFromKiteApp" finished-at="2022-08-04T18:55:51 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFromKiteApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:kiteTestClasses.ValidateKiteUserIDUsingPropertyFile@4d154ccd]" started-at="2022-08-04T18:55:51 IST" name="closeBrowser" finished-at="2022-08-04T18:55:51 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- kiteTestClasses.ValidateKiteUserIDUsingPropertyFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
